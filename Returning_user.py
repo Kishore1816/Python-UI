@@ -15,7 +15,7 @@ def button_press():
         if list_ in b:
             messagebox.showinfo(title="Login Successful", message="You Have Successfully Logged In.")
             root.destroy()
-            import Main_prog
+            import Main_prog  #add the next file that you want to import (Main prog DNE here)
         else:
             messagebox.showerror(title="Login Failed", message="Invalid ID Or Password.")
 
